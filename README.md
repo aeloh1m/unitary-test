@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Unit Test for React.js Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a simple unit test for a React.js component located in the `unitary-test/src/Components` directory.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+To run the unit test, make sure you have the following installed on your system:
 
-### `npm start`
+- Node.js (v12.0.0 or higher)
+- npm (v6.0.0 or higher) or Yarn (v1.0.0 or higher)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps to set up the project and run the unit test:
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone <repository_url>
+   ```
 
-### `npm run build`
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   cd unitary-test
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+   or
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   yarn install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running the Unit Test
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the unit test, execute the following command:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm test
+```
 
-## Learn More
+or
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+yarn test
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The test runner will launch and execute the unit tests defined for the React.js component. The test results will be displayed in the console.
 
-### Code Splitting
+## Test Files Location
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The unit test files for the React.js component can be found in the `unitary-test/src/Components` directory. The test file has a `.test.js` extension and is usually named after the component being tested.
 
-### Analyzing the Bundle Size
+## Writing Unit Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To write additional unit tests for the component, you can create new test files or add tests to existing ones within the `unitary-test/src/Components` directory. Follow the conventions for test file naming and use a testing library like Jest or React Testing Library to write your tests.
 
-### Making a Progressive Web App
+## Additional Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Jest Documentation](https://jestjs.io/)
+- [React Testing Library Documentation](https://testing-library.com/docs/react-testing-library/intro/)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize this README.md file based on your project's specific requirements and include any additional information that may be helpful. Good luck with your assignment!
